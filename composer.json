@@ -13,11 +13,17 @@
         "slim/views": "^0.1.0",
         "twig/twig": "~1.17",
         "pimple/pimple": "^1.0.2",
-        "perftools/xhgui-collector": "^1.7.0"
+        "pshentsoff/xhgui-collector": "^1.8.1"
     },
     "require-dev": {
         "alcaeus/mongo-php-adapter": "^1.1",
         "phpunit/phpunit": "^5.7.27 | ^6.5.13"
+    },
+    "repositories": {
+        "distribution": {
+            "type": "path",
+            "url": "./packages/*"
+        }
     },
     "scripts": {
         "test": "phpunit",
