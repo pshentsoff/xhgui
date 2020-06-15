@@ -244,7 +244,7 @@ you can make use of the `profiler.skip_built_in` option.
 Profiling a Web Request or CLI script
 =====================================
 
-Using [xhgui-collector](https://github.com/perftools/xhgui-collector) you can
+Using [xhgui-collector](https://github.com/pshentsoff/xhgui-collector) you can
 collect data from your web applications and CLI scripts. This data is then
 pushed into xhgui's database where it can be viewed with this application.
 
